@@ -1,5 +1,26 @@
+# Secrets / local config
 .env
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual envs
 .venv/
 venv/
+ENV/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ngrok / tunneling leftovers
+ngrok
+ngrok.exe
+*.log
